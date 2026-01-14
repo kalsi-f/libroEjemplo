@@ -1,0 +1,20 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 6bab7a95-a5c9-4554-a970-d70becdd3171
+  title: Libro Ejemplo
+  description:
+  keywords: []
+  authors: Fabian Reyes
+  # github:
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: index.md
+    - file: Ejemplo1.md
+    - file: Ejemplo2.ipynb
+    - file: Ejemplo3.tex
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
